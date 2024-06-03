@@ -195,7 +195,7 @@ public class WebStep {
     }
 
     @And("Click button Purchase")
-    public void clickButtonPurchase() { webPage.clickButtonClose();
+    public void clickButtonPurchase() { webPage.clickButtonPurchase();
     }
 
     @And("Fill Name {string}")
