@@ -4,7 +4,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
+import static org.assertj.core.api.Assertions.assertThat;
 import java.time.Duration;
 
 import static helper.Utility.driver;
@@ -130,21 +130,11 @@ public class WebPage {
 
     public static void willShowAlert (String alertMasaage) throws InterruptedException {
         Thread.sleep(3000);
-        try {
-            Alert alert = driver.switchTo().alert();
-            String massageAlert = driver.switchTo().alert().getText();
-            System.out.println(massageAlert);
-            Thread.sleep(3000);
-            alert.accept();
-
-            if (alertMasaage.equals(alertMasaage)) {
-                System.out.println(alertMasaage);
-            } else {
-                System.out.println("Alert Message does not match the expected message");
-            }
-        }catch (Exception a){
-            System.out.println("Alert not found");
-        }
+        Alert alert = driver.switchTo().alert();
+        String massageAlert = alert.getText();
+        System.out.println(massageAlert);
+        assertThat(massageAlert).isEqualTo(alertMasaage);
+        alert.accept();
     }
 
     public void clickNavSignUp () { driver.findElement(navSignUp).click(); }

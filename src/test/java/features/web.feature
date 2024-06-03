@@ -167,7 +167,7 @@ Feature: Final Project Web Testing https://www.demoblaze.com/
     And Click Button Add to Cart
     And Will show alert "Product added"
     And Click Nav Cart
-    #And Click button Place Order
+    And Click button Place Order
     And Click button Close Place Order
     Then Will back to Cart
 
@@ -178,7 +178,7 @@ Feature: Final Project Web Testing https://www.demoblaze.com/
     And Click Button Add to Cart
     And Will show alert "Product added"
     And Click Nav Cart
-    #And Click button Place Order
+    And Click button Place Order
     And Click button Purchase
     Then Will show alert "Please fill out Name and Creditcard."
 

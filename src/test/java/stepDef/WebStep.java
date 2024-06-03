@@ -111,7 +111,7 @@ public class WebStep {
 
     @Then("Will show alert {string}")
     public void willShowAlert(String alertMassage) throws InterruptedException {
-        webPage.willShowAlert(alertMassage);
+        WebPage.willShowAlert(alertMassage);
     }
 
     @And("Click button Log out")
@@ -167,7 +167,7 @@ public class WebStep {
     }
 
     @And("Click Nav Cart")
-    public void clickNavCart() { webPage.clickButtonAddToCart();
+    public void clickNavCart() { webPage.clickNavCart();
     }
 
     @Then("Will show purchased products")
