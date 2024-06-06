@@ -1,7 +1,7 @@
 Automation Web and API with JAWA
 
 Tujuan Project
-Tujuan project ini adalah untuk membuat sebuah framework pengujian otomatis yang dapat digunakan untuk melakukan pengujian pada aplikasi web dan api menggunakan bahasa Java. framework ini menggunakan Gradle, TestNG, Selenium WebDriver, Rest Assured, dan Cucumber dengan format Gherkin. Adanya report untuk mengetahui berapa banyak testscenario yang sudah di jalankan
+Tujuan project ini adalah untuk membuat sebuah framework pengujian otomatis yang dapat digunakan untuk melakukan pengujian pada aplikasi web dan api menggunakan bahasa Java. framework ini menggunakan Gradle, Selenium WebDriver, Rest Assured, dan Cucumber dengan format Gherkin. Adanya report untuk mengetahui berapa banyak testscenario yang sudah di jalankan
 
 Library yang digunakan
 Project ini mengunakan build system gradle ,gradle DSL Groovy dan ada library yang di ambil dari Maven
