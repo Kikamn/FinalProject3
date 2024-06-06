@@ -99,8 +99,8 @@ Feature: Final Project Web Testing https://www.demoblaze.com/
   Scenario: User sign up with username and password not register
     Given Open link PRODUCT STORE
     And Click nav Sign up
-    And Fill Username Sign up "Marhama123"
-    And Fill password Sign up "Marhama1234"
+    And Fill Username Sign up "Munaroh"
+    And Fill password Sign up "Munaroh1234"
     And Click button sign up
     And Will show alert "Sign up successful."
     Then Will back home

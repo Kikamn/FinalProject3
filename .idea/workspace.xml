@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd66f41b-0ef4-4929-801f-3dd74318dcba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/reports/cucumber_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber_report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber_report.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/web.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/web.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
