@@ -67,7 +67,7 @@ public class WebPage {
     By thankPurchase = By.xpath("/html/body/div[10]/h2");
     By okePurchase = By.xpath("/html/body/div[10]/div[7]/div/button");
 
-    public void openLinkPRODUCTSTORE(){ driver.get("https://www.demoblaze.com/");}
+    public void openLinkPRODUCTSTORE(){ driver.get("https://www.demoblaze.com/"); }
 
     public void userWillInHomeProductStore(){
         WebElement navbar1 = driver.findElement(navBar);
@@ -88,11 +88,15 @@ public class WebPage {
         driver.findElement(laptopsBtn).click();
     }
 
-    public void willShowAllTypeLaptop(){ driver.findElement(imgLaptop).isDisplayed(); }
+    public void willShowAllTypeLaptop(){
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.findElement(imgLaptop).isDisplayed(); }
 
     public void clickMonitors(){ driver.findElement(monitorBtn).click(); }
 
-    public void willShowAllTypeMonitor(){ driver.findElement(imgMonitor).isDisplayed(); }
+    public void willShowAllTypeMonitor(){
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+        driver.findElement(imgMonitor).isDisplayed(); }
 
     public void clickNavContact () { driver.findElement(navContact).click(); }
 
@@ -129,7 +133,7 @@ public class WebPage {
     public void clickButtonLogOut () { driver.findElement(btnLogOut); }
 
     public static void willShowAlert (String alertMasaage) throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         Alert alert = driver.switchTo().alert();
         String massageAlert = alert.getText();
         System.out.println(massageAlert);

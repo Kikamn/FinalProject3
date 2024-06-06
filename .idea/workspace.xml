@@ -5,32 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd66f41b-0ef4-4929-801f-3dd74318dcba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/cucumber_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/cucumber_report.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kika/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/api.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/web.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helper/Endpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helper/JSONSchemaData/get_list_user.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helper/Models.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helper/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ApiPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WebPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDef/ApiStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDef/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDef/WebStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/helper/JSONSchemaData/post_new_user.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber_report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/api.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/api.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/web.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/web.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helper/Endpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/Endpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helper/Models.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/Models.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helper/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ApiPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ApiPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WebPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WebPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/ApiStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ApiStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/WebStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/WebStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,31 +76,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Scenario: Test Categories in Product Store.executor": "Run",
-    "Cucumber Java.Scenario: Test Home  PRODUCT STORE.executor": "Run",
-    "Cucumber Java.Scenario: User can access Cart or add to cart in Cart.executor": "Run",
-    "Cucumber Java.Scenario: User can close Place Order.executor": "Run",
-    "Cucumber Java.Scenario: User can delete product in Cart.executor": "Run",
-    "Cucumber Java.Scenario: User can fill all form for to buy product.executor": "Run",
-    "Cucumber Java.Scenario: User can get in API.executor": "Run",
-    "Cucumber Java.Scenario: User can not buy product without fill form.executor": "Run",
-    "Cucumber Java.Scenario: User can see detail from product.executor": "Run",
-    "Gradle.Build FinalProject3.executor": "Run",
-    "Gradle.TestRunner.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kika/OneDrive/Desktop/Java/FinalProject/FinalProject",
-    "onboarding.tips.debug.path": "C:/Users/kika/OneDrive/Desktop/Java/FinalProject3/src/main/java/kika/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Scenario: Test Categories in Product Store.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Test Home  PRODUCT STORE.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User can access Cart or add to cart in Cart.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User can close Place Order.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User can delete in API.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User can delete product in Cart.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User can fill all form for to buy product.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User can get in API.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User can not buy product without fill form.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User can post / crate in API.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User can put / update in API.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User can put user id in api.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User can see detail from product.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build FinalProject3.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kika/OneDrive/Desktop/Java/WebUIandAPI&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/kika/OneDrive/Desktop/Java/FinalProject3/src/main/java/kika/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User can see detail from product">
+}</component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Test Categories in Product Store">
     <configuration name="Scenario: Test Categories in Product Store" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/web.feature" />
@@ -131,15 +125,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User can delete product in Cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User can delete in API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/web.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/api.feature" />
       <option name="GLUE" value="stepDef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="FinalProject3.test" />
-      <option name="NAME_FILTER" value="^User can delete product in Cart$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can delete product in Cart$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User can delete product in Cart" />
+      <option name="NAME_FILTER" value="^User can delete in API$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can delete in API$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can delete in API" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -151,15 +145,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User can fill all form for to buy product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User can post / crate in API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/web.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/api.feature" />
       <option name="GLUE" value="stepDef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="FinalProject3.test" />
-      <option name="NAME_FILTER" value="^User can fill all form for to buy product$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can fill all form for to buy product$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User can fill all form for to buy product" />
+      <option name="NAME_FILTER" value="^User can post \/ crate in API$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can post \/ crate in API$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can post / crate in API" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -171,15 +165,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User can not buy product without fill form" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User can put / update in API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/web.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/api.feature" />
       <option name="GLUE" value="stepDef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="FinalProject3.test" />
-      <option name="NAME_FILTER" value="^User can not buy product without fill form$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can not buy product without fill form$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User can not buy product without fill form" />
+      <option name="NAME_FILTER" value="^User can put \/ update in API$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can put \/ update in API$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can put / update in API" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -191,15 +185,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User can see detail from product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User can put user id in api" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/web.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/api.feature" />
       <option name="GLUE" value="stepDef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="FinalProject3.test" />
-      <option name="NAME_FILTER" value="^User can see detail from product$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can see detail from product$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User can see detail from product" />
+      <option name="NAME_FILTER" value="^User can put user id in api$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can put user id in api$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can put user id in api" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -213,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: User can see detail from product" />
-        <item itemvalue="Cucumber Java.Scenario: User can fill all form for to buy product" />
         <item itemvalue="Cucumber Java.Scenario: Test Categories in Product Store" />
-        <item itemvalue="Cucumber Java.Scenario: User can delete product in Cart" />
-        <item itemvalue="Cucumber Java.Scenario: User can not buy product without fill form" />
+        <item itemvalue="Cucumber Java.Scenario: User can put / update in API" />
+        <item itemvalue="Cucumber Java.Scenario: User can put user id in api" />
+        <item itemvalue="Cucumber Java.Scenario: User can delete in API" />
+        <item itemvalue="Cucumber Java.Scenario: User can post / crate in API" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +225,17 @@
       <updated>1717123749732</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FinalProject3$Scenario__Test_Categories_in_Product_Store.ic" NAME="Scenario: Test Categories in Product Store Coverage Results" MODIFIED="1717398796005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">

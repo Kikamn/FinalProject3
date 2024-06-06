@@ -18,7 +18,6 @@ public class WebStep {
 
     @Then("User will in home Product Store")
     public void userWillInHomeProductStore() { webPage.userWillInHomeProductStore();
-
     }
 
     @And("Click Phones")
@@ -195,7 +194,7 @@ public class WebStep {
     }
 
     @And("Click button Purchase")
-    public void clickButtonPurchase() { webPage.clickButtonClose();
+    public void clickButtonPurchase() { webPage.clickButtonPurchase();
     }
 
     @And("Fill Name {string}")

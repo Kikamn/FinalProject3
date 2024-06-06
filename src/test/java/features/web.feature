@@ -99,8 +99,8 @@ Feature: Final Project Web Testing https://www.demoblaze.com/
   Scenario: User sign up with username and password not register
     Given Open link PRODUCT STORE
     And Click nav Sign up
-    And Fill Username Sign up "Rizkika123"
-    And Fill password Sign up "Rizkika12345"
+    And Fill Username Sign up "Wati124"
+    And Fill password Sign up "Wati123456"
     And Click button sign up
     And Will show alert "Sign up successful."
     Then Will back home
@@ -157,7 +157,7 @@ Feature: Final Project Web Testing https://www.demoblaze.com/
     And Click Button Add to Cart
     And Will show alert "Product added"
     And Click Nav Cart
-    #And Click button Delete
+    And Click button Delete
     Then Cart will empty
 
   @web
@@ -179,6 +179,12 @@ Feature: Final Project Web Testing https://www.demoblaze.com/
     And Will show alert "Product added"
     And Click Nav Cart
     And Click button Place Order
+    And Fill Name ""
+    And Fill County ""
+    And Fill City ""
+    And Fill Credit card ""
+    And Fill Month ""
+    And Fill year ""
     And Click button Purchase
     Then Will show alert "Please fill out Name and Creditcard."
 
@@ -189,8 +195,8 @@ Feature: Final Project Web Testing https://www.demoblaze.com/
     And Click Button Add to Cart
     And Will show alert "Product added"
     And Click Nav Cart
-    #And Click button Place Order
-    And Fill Name "Kika"
+    And Click button Place Order
+    And Fill Name "KikaMN"
     And Fill Credit card "12345676"
     And Click button Purchase
     Then Will show Thank you for your purchase!
@@ -203,7 +209,7 @@ Feature: Final Project Web Testing https://www.demoblaze.com/
     And Click Button Add to Cart
     And Will show alert "Product added"
     And Click Nav Cart
-    #And Click button Place Order
+    And Click button Place Order
     And Fill Name "Kika"
     And Fill County "Indonesia"
     And Fill City "Jakarta"
