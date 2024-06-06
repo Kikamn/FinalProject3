@@ -89,7 +89,7 @@ public class WebPage {
     }
 
     public void willShowAllTypeLaptop(){
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
         driver.findElement(imgLaptop).isDisplayed(); }
 
     public void clickMonitors(){ driver.findElement(monitorBtn).click(); }
