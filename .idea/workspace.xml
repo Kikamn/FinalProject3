@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fd66f41b-0ef4-4929-801f-3dd74318dcba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/features/web.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/web.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WebPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WebPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,7 @@
     "Cucumber Java.Scenario: User can put / update in API.executor": "Run",
     "Cucumber Java.Scenario: User can put user id in api.executor": "Run",
     "Cucumber Java.Scenario: User can see detail from product.executor": "Run",
+    "Cucumber Java.Scenario: User sign up with username and password not register.executor": "Run",
     "Gradle.Build FinalProject3.executor": "Run",
     "Gradle.TestRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -90,7 +92,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.TestRunner">
+  <component name="RunManager" selected="Cucumber Java.Scenario: User sign up with username and password not register">
     <configuration name="Feature: api" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/api.feature" />
@@ -150,15 +152,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User can put / update in API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User sign up with username and password not register" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/api.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/web.feature" />
       <option name="GLUE" value="stepDef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="FinalProject3.test" />
-      <option name="NAME_FILTER" value="^User can put \/ update in API$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can put \/ update in API$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User can put / update in API" />
+      <option name="NAME_FILTER" value="^User sign up with username and password not register$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User sign up with username and password not register$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User sign up with username and password not register" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -196,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: User sign up with username and password not register" />
         <item itemvalue="Gradle.TestRunner" />
         <item itemvalue="Cucumber Java.Feature: api" />
         <item itemvalue="Cucumber Java.Scenario: Test Home  PRODUCT STORE" />
         <item itemvalue="Cucumber Java.Scenario: Test Categories in Product Store" />
-        <item itemvalue="Cucumber Java.Scenario: User can put / update in API" />
       </list>
     </recent_temporary>
   </component>

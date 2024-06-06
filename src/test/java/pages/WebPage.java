@@ -133,7 +133,7 @@ public class WebPage {
     public void clickButtonLogOut () { driver.findElement(btnLogOut); }
 
     public static void willShowAlert (String alertMasaage) throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(6000);
         Alert alert = driver.switchTo().alert();
         String massageAlert = alert.getText();
         System.out.println(massageAlert);
